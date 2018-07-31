@@ -1,0 +1,23 @@
+{
+  "name": "weekend-challenge-1-with-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyracalvert/weekend-challenge-1-with-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyracalvert/weekend-challenge-1-with-node/issues"
+  },
+  "homepage": "https://github.com/kyracalvert/weekend-challenge-1-with-node#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

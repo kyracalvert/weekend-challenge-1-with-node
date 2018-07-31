@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Salary Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="vendors/jquery-3.3.1.js"></script>
+    <script src="scripts/client.js"></script>
+</head>
+
+<body>
+    <h1>Salary Calculator</h1>
+
+
+    <p>
+        <strong>Add Employee</strong>
+        <small>
+            <i>(Please enter salary without commas):</i>
+        </small>
+
+    </p>
+    
+<div id = "employee-form">
+    <div>
+        <input type="text" id="name" placeholder="First Name">
+    </div>
+
+    <div>
+        <input type="text" id="surname" placeholder="Last Name">
+    </div>
+
+    <div>
+        <input type="text" id="idnum" placeholder="ID Number">
+    </div>
+
+    <div>
+        <input type="text" id="title" placeholder="Job Title">
+    </div>
+
+    <div>
+        <input type="text" id="salary" placeholder="Annual Salary">
+    </div>
+
+    <div class="button">
+        <button id="submit">Submit</button>
+    </div>
+</div>
+
+    <div class="containerDiv">
+        <div class="tableDiv">
+            <table id="employeeList">
+                <tr>
+                    <h4>Current Employees:</h4>
+                    <br>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>ID Number</th>
+                    <th>Job Title</th>
+                    <th>Annual Salary</th>
+                    <th></th>
+                </tr>
+            </table>
+            <br>
+            <div id="totalMonthly">Total Monthly Expenses:
+                <span id="expenses"> </span>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

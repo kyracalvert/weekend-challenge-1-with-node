@@ -1,0 +1,57 @@
+div {
+    float: left;
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: right;
+    color: white;
+    background-color: lightseagreen;
+    height: 50px;
+}
+
+h4 {
+    float: left;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+table {
+    border: thin solid white;
+    border-collapse:collapse;
+	width: 800px;
+	float: left;
+	text-align: center;
+	align-items:center;
+}
+
+tr{
+	align-content: center;
+	border-width: thin;
+	border: thin solid black;
+	padding: 5px;
+	}
+
+th {
+        background-color: lightseagreen;
+        color: white;
+        align-content: center;
+        border-width: thin;
+        border: thin solid black;
+        padding: 5px;
+
+    }
+
+td {
+    align-content: center;
+    border-width: thin;
+    border: thin solid black;
+    padding: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
